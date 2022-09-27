@@ -24,6 +24,9 @@ Executar
 npm run dev
 ```
 
+##Banco de dados
+MySQL
+
 ## :soon: Implementação futura
 * Implementar CORS
 * HTTP Codes
