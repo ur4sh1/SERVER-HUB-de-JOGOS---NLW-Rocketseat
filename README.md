@@ -27,3 +27,4 @@ npm run dev
 ## :soon: Implementação futura
 * Implementar CORS
 * HTTP Codes
+* RestFul
