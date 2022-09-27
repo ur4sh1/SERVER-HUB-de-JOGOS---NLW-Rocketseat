@@ -1,29 +1,29 @@
+<h1 align="center">:file_cabinet: API - HUB-de-Jogos</h1>
 
-EXPRESS / NODE
+## :memo: Descrição
+API Rest para comunicação do banco de dados
 
-#HTTP methods /Api RESTful / HTTP Codes
+## :books: Funcionalidades
+* Gerencia o CRUD no bando de dados MySQL
 
-*Query: paramentros na url nomeados
-*Route: paramentros na url para identifica-los, não nomeados
-*Body: enviar, informações sensiveis pela requisição
+## :wrench: Tecnologias utilizadas
+* Express;
+* Prisma;
 
-#GET, POST, PATCH, PUT, DELETE
+## :rocket: Rodando o projeto
+Para rodar o repositório é necessário clonar o mesmo, dar o seguinte comando para iniciar o projeto:
+```
+git clone git@github.com:ur4sh1/SERVER-HUB-de-JOGOS---NLW-Rocketseat.git
+```
+Instalar dependências
+```
+npm install
+```
+Executar
+```
+npm run dev
+```
 
-##Casos de Uso
--Lsitagem de games com contagem de anúncios
--Criação de um novo anúncio
--Listagem de anúncio por game
--Buscar discord pelo ID do anúncio
-
-Banco de Dados
-
-##ORM
-Prisma
-
-npx prisma init --datasource-provider SQLite
-npx prisma migrate dev
-npx prisma generate
-npx studio
-
-##Blioteca
-CORS
+## :soon: Implementação futura
+* Implementar CORS
+* HTTP Codes
